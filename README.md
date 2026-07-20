@@ -57,4 +57,6 @@ Self-serve gets one person productive. Getting a *team* to adopt Cowork — shar
 
 Content licensed [CC BY 4.0](LICENSE): use it at work, share it, adapt it — just credit [claudecoworktraining.com](https://claudecoworktraining.com). All companies, people, and data in the scenarios are fictional.
 
+Created and maintained by [Peter Velinov](https://claudecoworktraining.com/about/), Claude Certified Architect – Foundations and founder of [Metamorfeus](https://metamorfeus.com). Metamorfeus, the example company in these materials, is a fictionalized version of his real consultancy — all course data is synthetic.
+
 *Independent training resource. Not affiliated with or endorsed by Anthropic. Claude and Claude Cowork are trademarks of Anthropic, PBC.*
