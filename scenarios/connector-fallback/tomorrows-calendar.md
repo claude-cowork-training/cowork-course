@@ -1,0 +1,6 @@
+# Simulated calendar — "tomorrow" (use only if you skip connecting a real tool in 2.1)
+09:00–09:30  Metamorfeus standup (Dana, Priya, Tomás, Mia)
+10:00–11:00  Cascadia pilot check-in — Rachel Vance, Lena Osei (agenda: extract quality, July 15 go-live risk)
+12:30–13:00  Intro call — inbound lead: Halvard Foods, ops director (source: webinar signup)
+14:00–14:45  Ferrostar QBR prep working session (Tomás owns; renewal talk starts this month)
+16:00–16:15  1:1 Dana ↔ Priya (topic: Brightline net-30 chase)

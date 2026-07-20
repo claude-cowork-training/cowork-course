@@ -1,0 +1,12 @@
+INVOICE
+Metamorfeus — AI Solutions
+Invoice #: MM-2026-031
+Date: March 31, 2026
+Bill to: Brightline Logistics, 4410 Harbor Way, Portland OR
+
+Services: AI workflow implementation — Phase 1 (routing automation)
+Hours: 62 @ $185/hr
+Subtotal: $11,470.00
+Tax (0%): $0.00
+TOTAL DUE: $11,470.00
+Terms: Net 30
