@@ -22,6 +22,17 @@ Check off each shot as you capture it.
 
 ### Lesson 1.1 — What Is Claude Cowork
 
+**Setup pilot captured 21 November 2026** (see [capture notes](lesson-1-1-capture-notes.md)):
+
+- [x] `lesson-1-1-step-01-02-cowork-mode.png` — Cowork and Project or folder.
+- [x] `lesson-1-1-step-03-add-folder.png` — Add folder menu item.
+- [x] `lesson-1-1-step-04-select-course-folder.png` — course subfolders and Select Folder.
+- [x] `lesson-1-1-step-05-folder-permission.png` — folder permission prompt; approved by the user during capture.
+- [x] `lesson-1-1-step-06-start-lesson.png` — attached folder, lesson command and send arrow.
+- [x] `lesson-1-1-step-07-folder-access-request.png` — additional folder access request after sending, if shown.
+
+The exercise proof images below are still pending.
+
 - [ ] `lesson-1-1-chat-vs-agent.png` — Cowork answering a question about `scenarios/messy-folder` (chat) vs. creating `folder-tour.md` (agent steps pane visible).
   - Alt: "Chat answer versus agent action: Cowork creating a real file"
 - [ ] `lesson-1-1-new-file-proof.png` — File Explorer showing the freshly created `folder-tour.md`, with its content open.

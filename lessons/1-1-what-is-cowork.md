@@ -19,6 +19,53 @@ Two things keep this safe. **Scope:** Cowork only sees what you point it at. Giv
 
 One more idea to carry forward: the files in `/scenarios/` belong to **Metamorfeus**, a fictional AI consultancy you'll be "working at" for the next ten lessons. Its clients, people, and numbers are all synthetic — but the mess is realistic, because it's modeled on how real shared drives actually look.
 
+<!-- lesson-1-1-visual-walkthrough:start -->
+## Visual walkthrough: open the course in Cowork
+
+Follow these screenshots to open the course folder in Claude Desktop. Captured on Windows on 21 November 2026; labels and layout can vary by app version and plan. The screenshots use a separate copy of the fictional course data, named cowork-course-demo.
+
+### Steps 1–2: Open Cowork and choose a folder
+
+Open a new conversation in Claude Desktop. Click Cowork below the message box, then click Project or folder. If you are in an existing conversation, use New in the sidebar first.
+
+![Claude Desktop message box with numbered highlights: 1 on Cowork and 2 on Project or folder.](../assets/lesson-1-1-step-01-02-cowork-mode.png)
+
+### Step 3: Add the course folder
+
+In the menu that opens, click Add folder. This opens the Windows folder picker.
+
+![The bottom of the Project or folder menu, with step 3 highlighting Add folder.](../assets/lesson-1-1-step-03-add-folder.png)
+
+### Step 4: Select the unzipped course folder
+
+In the folder picker, open the course folder you downloaded and unzipped. Choose the folder containing instructor, lessons, scenarios and templates, then click Select Folder. Our separate demo copy is called cowork-course-demo; your downloaded folder may have a different name. The empty middle of this screenshot is cropped and unrelated navigation locations are hidden.
+
+![Windows folder picker showing the course subfolders instructor, lessons, scenarios and templates, with step 4 highlighting Select Folder.](../assets/lesson-1-1-step-04-select-course-folder.png)
+
+### Step 5: Check and allow the course folder
+
+Claude asks whether it may change files in the selected folder. Check that the name belongs to your course folder, read the message, and click Allow to continue. This tutorial uses the single-session Allow button.
+
+![Claude asks to change files in cowork-course-demo, with step 5 highlighting the Allow button.](../assets/lesson-1-1-step-05-folder-permission.png)
+
+### Step 6: Send the lesson start command
+
+Check that the selected course folder appears below the message box. Type start lesson 1.1, then click the orange send arrow. This is the command that asks Claude to read the instructor files and begin the course.
+
+![Claude Desktop with cowork-course-demo attached, start lesson 1.1 typed in the message box, and step 6 highlighting the command and orange send arrow.](../assets/lesson-1-1-step-06-start-lesson.png)
+
+### Step 7, if shown: Review the additional folder access request
+
+A second Windows folder access request may appear after you send the command. Read the notice and check that the path is your course folder before clicking Allow. The notice explains that Claude can read and modify files and run commands that access this folder, and that files used by the cloud session are processed on Anthropic’s servers. The screenshot leaves Don’t ask again unchecked.
+
+![Windows Folder access request for the demo course folder, with step 7 highlighting Allow and the Don’t ask again checkbox left unchecked.](../assets/lesson-1-1-step-07-folder-access-request.png)
+
+### Continue with the lesson
+
+When Claude begins teaching, answer its opening questions, then follow the exercise below. Keep both the question and the file-creation task in the same Cowork conversation: “chat behavior” here means an answer without a saved output, not switching to the Chat button.
+
+<!-- lesson-1-1-visual-walkthrough:end -->
+
 ## Exercise (uses /scenarios/messy-folder/)
 1. **Chat behavior:** ask me: *"What's in scenarios/messy-folder?"* — I'll read it and tell you. Notice that nothing changed; you just got an answer.
 2. **Agent behavior:** now tell me: *"Create a file called folder-tour.md in the course root that lists every file in scenarios/messy-folder with a one-line description of each."* — I'll do it.

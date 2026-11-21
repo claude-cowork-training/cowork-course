@@ -2,7 +2,7 @@
 
 Learn Claude Cowork by *doing*, inside Claude itself. No videos, no signup. Download this folder, point Claude Cowork at it, and say **"start lesson 1.1"** — Claude reads the instructor files and teaches you the whole course interactively: one lesson at a time, with hands-on exercises on realistic practice files, quizzes before you advance, and a progress tracker it maintains for you.
 
-> 📸 Screenshots and a demo GIF are coming in v1.1 — the course itself is complete and fully usable today.
+> Lesson 1.1 now includes a [numbered screenshot walkthrough for opening the course folder](lessons/1-1-what-is-cowork.md#visual-walkthrough-open-the-course-in-cowork). Screenshots for the remaining sections and the demo GIF are still planned.
 
 ## Quickstart (3 steps)
 
