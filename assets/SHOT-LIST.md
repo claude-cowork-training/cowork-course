@@ -42,11 +42,17 @@ All Lesson 1.1 setup and exercise images below are captured as native PNGs witho
 
 ### Lesson 1.2 — Your First Task
 
-- [ ] `lesson-1-2-brief-vs-vague.png` — side-by-side outputs: lazy one-liner vs. outcome-inputs-format brief on the same task.
-  - Alt: "Same task, two briefs: vague instruction output next to proper-brief output"
-- [ ] `lesson-1-2-plan-and-redirect.png` — Cowork's plan before executing, with the user's mid-task redirect message beneath it.
-  - Alt: "Cowork presents its plan; the user redirects it mid-task"
-- [ ] *(optional)* `lesson-1-2-payment-status-table.png` — finished `brightline-payment-status.md` table.
+**Captured 21 November 2026**. See [capture notes](lesson-1-2-capture-notes.md).
+
+- [x] `lesson-1-2-step-01-weak-brief.png` — Step 1: Send the weak brief.
+- [x] `lesson-1-2-step-02-check-assumptions.png` — Step 2: Inspect the assumptions before approving the plan.
+- [x] `lesson-1-2-step-03-four-line-brief.png` — Step 3: Give Claude the four-line brief.
+- [x] `lesson-1-2-brief-vs-vague.png` — Step 4: Compare the revised plan.
+- [x] `lesson-1-2-plan-and-redirect.png` — Step 5: Redirect at an in-progress checkpoint.
+- [x] `lesson-1-2-step-06-redirect-incorporated.png` — Step 6: Check the completion message.
+- [x] `lesson-1-2-payment-status-table.png` — Step 7: Open the saved file and check its total.
+- [x] `lesson-1-2-step-08-review-may-and-chase.png` — Step 8: Verify May and the redirect against the sources.
+- [x] `lesson-1-2-step-09-quiz-complete.png` — Step 9: Finish the quiz and confirm progress.
 
 ### Lesson 1.3 — Working With Files
 
