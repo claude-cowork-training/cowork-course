@@ -54,13 +54,18 @@ All Lesson 1.1 setup and exercise images below are captured as native PNGs witho
 - [x] `lesson-1-2-step-08-review-may-and-chase.png` — Step 8: Verify May and the redirect against the sources.
 - [x] `lesson-1-2-step-09-quiz-complete.png` — Step 9: Finish the quiz and confirm progress.
 
-### Lesson 1.3 — Working With Files
+### Lesson 1.3 ? Working With Files
 
-- [ ] `lesson-1-3-messy-before.png` — the 16-file `scenarios/messy-folder` mess in File Explorer.
-  - Alt: "The messy 16-file scenario folder before organizing"
-- [ ] `lesson-1-3-organized-after.png` — the non-destructive `organized/` tree (client subfolders + `internal/`) next to the untouched original.
-  - Alt: "The organized copy Cowork built, with the original folder untouched"
-- [ ] *(optional)* `lesson-1-3-receivables-citations.png` — `receivables.md` extraction table with source-file citations.
+**Captured 21 November 2026**. See [capture notes](lesson-1-3-capture-notes.md).
+
+- [x] `lesson-1-3-messy-before.png` ? Step 1: Inspect the 16 original files.
+- [x] `lesson-1-3-audit-findings.png` ? Step 2: Audit before organizing.
+- [x] `lesson-1-3-compare-notes.png` ? Step 3: Compare content before choosing a version.
+- [x] `lesson-1-3-copy-request.png` ? Step 4: Request renamed copies and a mapping.
+- [x] `lesson-1-3-organized-after.png` ? Step 5: Review the organized copy.
+- [x] `lesson-1-3-extract-review.png` ? Step 6: Keep billed and unpaid amounts distinct.
+- [x] `lesson-1-3-receivables-citations.png` ? Step 7: Trace a figure back to its source.
+- [x] `lesson-1-3-quiz-complete.png` ? Step 8: Finish the quiz and save progress.
 
 ### Lesson 1.4 — Documents and Decks
 

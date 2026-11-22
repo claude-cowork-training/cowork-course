@@ -4,6 +4,11 @@
 - Screenshots for every lesson and the demo GIF of the "start lesson 1.1" moment (full capture list in [assets/SHOT-LIST.md](assets/SHOT-LIST.md))
 - Social-preview image for the repo
 
+## [1.0.4] ? 2026-11-21
+- Added eight annotated native-PNG screenshots to Lesson 1.3 covering the 16-file folder, audit, near-duplicate comparison, non-destructive copy, cited extraction, source review and quiz completion.
+- Verified all 16 mapped copies byte-for-byte and all original inputs unchanged. Kept both meeting-note originals; recommended a reviewed merge without creating a derivative.
+- Distinguished $21,960 invoiced from unconfirmed unpaid balances, with May's $6,000 note and contract/proposal values separate. Aligned WordPress instructions with the copy-first exercise.
+
 ## [1.0.3] — 2026-11-21
 - Added nine annotated native-PNG screenshots to Lesson 1.2: weak brief, assumptions, four-line brief, plan comparison, explicit execution checkpoint, redirect, actual output review and quiz completion.
 - Completed the real Brightline exercise; $21,960 documented invoice total, May $6,000 note separate, and todo.txt identifies the March invoice. Payment status is not assumed.
