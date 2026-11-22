@@ -1,5 +1,13 @@
 # Lesson 1.1 screenshot pilot
 
+## Image quality correction — 21 November 2026
+
+The first four setup images were replaced with lossless native PNG window captures. The previous automation inspection frames were JPEGs, and enlarging their crops made them soft. The new captures enlarge the actual app interface before capture, retain screenshot pixels at 1:1 during annotation, and use compact layouts. The WordPress lesson now requests the full original PNG directly and limits its displayed width to the available page width.
+
+The new folder-button screenshot shows an already-selected course folder. Before a folder is selected, this control is labeled **Project or folder**; the instructions explain both states. Folder-picker details are cropped from one real dialog and kept at native size.
+
+Recapture of the final two setup images and the exercise-result images is in progress. Claude usage is available again; continuation currently requires the user to accept the folder-permission prompt shown during recapture.
+
 This pilot illustrates the opening **course-folder setup** section of Lesson 1.1. It does not illustrate the later question-versus-file exercise yet.
 
 Captured from the real Claude Desktop app on Windows on 21 November 2026. The supplied reference showed Desktop app version 4.23118.0; the version number was not independently rechecked during capture. The UI labels below were observed directly in the running app. Labels can change with app updates and plan availability.

@@ -26,9 +26,9 @@ Follow these screenshots to open the course folder in Claude Desktop. Captured o
 
 ### Steps 1–2: Open Cowork and choose a folder
 
-Open a new conversation in Claude Desktop. Click Cowork below the message box, then click Project or folder. If you are in an existing conversation, use New in the sidebar first.
+Open a new conversation in Claude Desktop. Click Cowork below the message box, then open the folder control. On first use it says Project or folder; if you already selected a folder, it shows that folder?s name, as in this screenshot. Use New in the sidebar if you are in an existing conversation.
 
-![Claude Desktop message box with numbered highlights: 1 on Cowork and 2 on Project or folder.](../assets/lesson-1-1-step-01-02-cowork-mode.png)
+![Native PNG of Claude Desktop with 1 highlighting Cowork and 2 highlighting the selected course folder control.](../assets/lesson-1-1-step-01-02-cowork-mode.png)
 
 ### Step 3: Add the course folder
 
@@ -38,7 +38,7 @@ In the menu that opens, click Add folder. This opens the Windows folder picker.
 
 ### Step 4: Select the unzipped course folder
 
-In the folder picker, open the course folder you downloaded and unzipped. Choose the folder containing instructor, lessons, scenarios and templates, then click Select Folder. Our separate demo copy is called cowork-course-demo; your downloaded folder may have a different name. The empty middle of this screenshot is cropped and unrelated navigation locations are hidden.
+In the folder picker, open the course folder you downloaded and unzipped. Choose the folder containing instructor, lessons, scenarios and templates, then click Select Folder. Our separate demo copy is called cowork-course-demo. The image combines native-size cropped details from the same folder picker; unrelated locations and empty space are omitted.
 
 ![Windows folder picker showing the course subfolders instructor, lessons, scenarios and templates, with step 4 highlighting Select Folder.](../assets/lesson-1-1-step-04-select-course-folder.png)
 
