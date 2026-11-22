@@ -1,39 +1,24 @@
 # Lesson 1.1 screenshot pilot
 
-## Image quality correction — 21 November 2026
+Completed on Windows on 21 November 2026. Twelve real, annotated screenshots cover steps 1–13 of Lesson 1.1 only. Other lessons and the demo GIF remain outside this pilot.
 
-The first four setup images were replaced with lossless native PNG window captures. The previous automation inspection frames were JPEGs, and enlarging their crops made them soft. The new captures enlarge the actual app interface before capture, retain screenshot pixels at 1:1 during annotation, and use compact layouts. The WordPress lesson now requests the full original PNG directly and limits its displayed width to the available page width.
+## Image quality
 
-The new folder-button screenshot shows an already-selected course folder. Before a folder is selected, this control is labeled **Project or folder**; the instructions explain both states. Folder-picker details are cropped from one real dialog and kept at native size.
+The earlier automation inspection images were JPEGs, despite their .png filenames. Enlarging small crops made them soft. All published Lesson 1.1 images now originate from lossless native Windows Alt+Print captures. We enlarged the app interface before capture, pasted crops at 1:1, and never enlarged screenshot pixels. WordPress requests the full original PNG, limits display width to the available space, preserves aspect ratio and links each full-size image.
 
-Recapture of the final two setup images and the exercise-result images is in progress. Claude usage is available again; continuation currently requires the user to accept the folder-permission prompt shown during recapture.
+## Actual capture sequence
 
-This pilot illustrates the opening **course-folder setup** section of Lesson 1.1. It does not illustrate the later question-versus-file exercise yet.
+1. Collapsed the personal sidebar; chose Cowork, the folder control, then Add folder. The folder control says Project or folder before selection; the captured home shows the selected course folder.
+2. Selected a separate synthetic course copy at C:\dev\cowork-course-demo. Confirmed only this demo folder when the permission and session-folder prompts appeared. The user explicitly authorized these folder approvals. Persistent-access checkboxes remained unchecked.
+3. Sent start lesson 1.1, supplied a fictional learner named Alex, and answered the conceptual quick checks.
+4. Asked What's in scenarios/messy-folder? Claude initially said 17 although its groups totaled 16. We checked the actual inputs and requested a recount. The screenshot shows the corrected answer and unchanged-folder statement. No folder-tour.md existed at this point.
+5. Sent the exact file-creation request from the lesson. Claude created folder-tour.md, with all 16 original filenames and one description per file.
+6. In Explorer, used Ctrl+L to enter the demo root, selected folder-tour.md and double-clicked. It opened in Visual Studio Code. Clicked Open as Preview, enlarged the interface, and captured the real file.
+7. Checked client-contacts.csv (Jordan Pike uses semicolons; missing fields) and expenses-april.csv (six expenses; ISO, slash-separated and month-name dates). Both descriptions matched. All original scenario hashes remained unchanged.
+8. Reported the review and answered the three quiz questions individually. Claude confirmed 3/3, saved Lesson 1.1 progress and stopped. Lesson 1.2 was not started.
 
-Captured from the real Claude Desktop app on Windows on 21 November 2026. The supplied reference showed Desktop app version 4.23118.0; the version number was not independently rechecked during capture. The UI labels below were observed directly in the running app. Labels can change with app updates and plan availability.
+## Capture map and privacy
 
-| Image | Numbered actions | Placement |
-|---|---|---|
-| `lesson-1-1-step-01-02-cowork-mode.png` | 1. Cowork; 2. Project or folder | Before choosing the course folder |
-| `lesson-1-1-step-03-add-folder.png` | 3. Add folder | Before the Windows folder picker |
-| `lesson-1-1-step-04-select-course-folder.png` | 4. Select Folder | After opening the unzipped course folder |
-| `lesson-1-1-step-05-folder-permission.png` | 5. Allow, shown as the learner's next action | At Claude's folder-permission prompt |
-| `lesson-1-1-step-06-start-lesson.png` | 6. Type the command and click the send arrow | After the course folder is attached |
-| `lesson-1-1-step-07-folder-access-request.png` | 7. Review the additional folder access request, if shown | After sending the start command |
+Steps 1–8 use lesson-1-1-step-* filenames. Steps 9–13 are chat-answer, chat-vs-agent, new-file-proof, review-output and quiz-complete. The exercise screenshots show a real answer, output, editor review and completion; none are fabricated. Native excerpts from the same folder-picker or Explorer window are identified in captions. Personal navigation and unrelated content were cropped out. Numbered outlines, headings and notes are annotations, not recreated product controls.
 
-## Capture sequence and privacy edits
-
-1. Opened the existing Claude home screen and collapsed the personal sidebar.
-2. Clicked **Cowork**, then **Project or folder**, then **Add folder**.
-3. Navigated the Windows folder picker to a separate synthetic course copy, `C:\dev\cowork-course-demo`.
-4. Clicked **Select Folder** and captured Claude's permission prompt. The user clicked **Allow**, and the course folder then appeared below the composer.
-5. Typed **start lesson 1.1**, captured the command and send button, and clicked the send button.
-6. Captured the additional **Folder access request** that appeared after sending. The screenshot shows the request before approval; it does not claim permission was granted.
-7. Claude returned **You've hit your weekly limit** before teaching or producing exercise output. No response or file-creation result was fabricated, and no usage reset or plan change was performed. The pilot therefore covers the setup subsection only.
-8. Added numbered outlines, instructional headings and captions to the real captures. No product controls or results were generated or redrawn.
-
-The menu image crops out personal project names. The folder-picker image masks unrelated navigation locations and removes an empty vertical area, as disclosed in its caption. The other images crop the relevant controls. No real account name, company name or chat history appears in the published images.
-
-The filenames identify lesson, step and feature. The matching Markdown lesson and WordPress page embed the same PNGs with descriptive alt text. The screenshot text is also available as ordinary lesson text for accessibility.
-
-The original planned `lesson-1-1-chat-vs-agent.png` and `lesson-1-1-new-file-proof.png` remain outstanding. Later lessons and the demo GIF are outside this pilot.
+The user supplied Desktop version 4.23118.0. The installed version was not independently rechecked; these images document the observed interface on the capture date. Labels and availability can vary. WordPress, the repository lesson and the local ZIP use matching PNGs and descriptive alt text.

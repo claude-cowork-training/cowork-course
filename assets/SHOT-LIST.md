@@ -4,7 +4,7 @@ Capture all shots during **one QA run-through** of the course in Claude Desktop 
 
 ## Capture rules
 
-- **Resolution:** ~1600px wide, PNG. The one GIF (`demo-start-lesson.gif`) should be short (5–10 s), looping.
+- **Resolution:** lossless native PNG; enlarge the app text before capture, crop tightly, and never upscale screenshot pixels. Use a readable display size and link the original. The one GIF (`demo-start-lesson.gif`) should be short (5–10 s), looping.
 - **Naming:** `lesson-<n>-<slug>-<shot>.png` exactly as listed below. Save everything into this `assets/` folder.
 - **Privacy:** no real account name/email visible in the Claude Desktop chrome — use a demo profile or crop. Nothing else needs redaction; all scenario data is fictional.
 - **Where they go:** each image is embedded in (a) the matching GitHub lesson `.md` and (b) the matching WordPress lesson page in `claudecoworktraining-complete-import-july-7-2026.xml`. Alt text suggestions included below.
@@ -22,7 +22,7 @@ Check off each shot as you capture it.
 
 ### Lesson 1.1 — What Is Claude Cowork
 
-**Setup pilot captured 21 November 2026** (see [capture notes](lesson-1-1-capture-notes.md)):
+**Lesson 1.1 completed 21 November 2026** (see [capture notes](lesson-1-1-capture-notes.md)):
 
 - [x] `lesson-1-1-step-01-02-cowork-mode.png` — Cowork and Project or folder.
 - [x] `lesson-1-1-step-03-add-folder.png` — Add folder menu item.
@@ -31,12 +31,14 @@ Check off each shot as you capture it.
 - [x] `lesson-1-1-step-06-start-lesson.png` — attached folder, lesson command and send arrow.
 - [x] `lesson-1-1-step-07-folder-access-request.png` — additional folder access request after sending, if shown.
 
-The exercise proof images below are still pending.
+All Lesson 1.1 setup and exercise images below are captured as native PNGs without upscaling.
 
-- [ ] `lesson-1-1-chat-vs-agent.png` — Cowork answering a question about `scenarios/messy-folder` (chat) vs. creating `folder-tour.md` (agent steps pane visible).
-  - Alt: "Chat answer versus agent action: Cowork creating a real file"
-- [ ] `lesson-1-1-new-file-proof.png` — File Explorer showing the freshly created `folder-tour.md`, with its content open.
-  - Alt: "The folder-tour.md file Cowork just created, open in an editor"
+- [x] `lesson-1-1-step-08-confirm-session-folder.png` — Add folder for this session, if shown.
+- [x] `lesson-1-1-chat-answer.png` — step 9, corrected answer without a saved file.
+- [x] `lesson-1-1-chat-vs-agent.png` — step 10, real file-creation task and confirmation.
+- [x] `lesson-1-1-new-file-proof.png` — step 11, Explorer path and selected output.
+- [x] `lesson-1-1-review-output.png` — step 12, actual file open in Markdown Preview.
+- [x] `lesson-1-1-quiz-complete.png` — step 13, quiz and progress confirmation.
 
 ### Lesson 1.2 — Your First Task
 

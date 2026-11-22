@@ -4,6 +4,12 @@
 - Screenshots for every lesson and the demo GIF of the "start lesson 1.1" moment (full capture list in [assets/SHOT-LIST.md](assets/SHOT-LIST.md))
 - Social-preview image for the repo
 
+## [1.0.2] — 2026-11-21
+- Replaced all Lesson 1.1 setup images with lossless native PNGs, enlarged the app before capture, and removed screenshot upscaling.
+- Completed Lesson 1.1 with 12 annotated images covering steps 1–13: setup, question, saved file, source review and quiz completion.
+- WordPress uses original PNG sources with responsive sizing and links to full-size images. GitHub and the course download contain matching assets.
+- Documented the real 17-to-16 file-count correction and verified all 16 scenario inputs remained unchanged.
+
 ## [1.0.1] — 2026-11-21
 - Added a six-image, numbered Claude Desktop setup walkthrough to Lesson 1.1, with matching instructions, alt text, and capture notes.
 - Updated the opening steps to the observed Cowork → Project or folder → Add folder interface.

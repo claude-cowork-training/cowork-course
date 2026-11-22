@@ -26,7 +26,7 @@ Follow these screenshots to open the course folder in Claude Desktop. Captured o
 
 ### Steps 1–2: Open Cowork and choose a folder
 
-Open a new conversation in Claude Desktop. Click Cowork below the message box, then open the folder control. On first use it says Project or folder; if you already selected a folder, it shows that folder?s name, as in this screenshot. Use New in the sidebar if you are in an existing conversation.
+Open a new conversation in Claude Desktop. Click Cowork below the message box, then open the folder control. On first use it says Project or folder; if you already selected a folder, it shows that folder's name, as in this screenshot. Use New in the sidebar if you are in an existing conversation.
 
 ![Native PNG of Claude Desktop with 1 highlighting Cowork and 2 highlighting the selected course folder control.](../assets/lesson-1-1-step-01-02-cowork-mode.png)
 
@@ -60,6 +60,12 @@ A second Windows folder access request may appear after you send the command. Re
 
 ![Windows Folder access request for the demo course folder, with step 7 highlighting Allow and the Don’t ask again checkbox left unchecked.](../assets/lesson-1-1-step-07-folder-access-request.png)
 
+### Step 8, if shown: Add the course folder to this session
+
+Claude may also show a card asking to add the course folder to the current session. Check that the path names your course folder, read the notice, then click Add folder. The notice and the Windows access prompt may appear in either order. Continue when the request is dismissed and Claude resumes.
+
+![Native PNG of Claude asking to add the demo course folder to the current session, with step 8 highlighting Add folder.](../assets/lesson-1-1-step-08-confirm-session-folder.png)
+
 ### Continue with the lesson
 
 When Claude begins teaching, answer its opening questions, then follow the exercise below. Keep both the question and the file-creation task in the same Cowork conversation: “chat behavior” here means an answer without a saved output, not switching to the Chat button.
@@ -70,6 +76,38 @@ When Claude begins teaching, answer its opening questions, then follow the exerc
 1. **Chat behavior:** ask me: *"What's in scenarios/messy-folder?"* — I'll read it and tell you. Notice that nothing changed; you just got an answer.
 2. **Agent behavior:** now tell me: *"Create a file called folder-tour.md in the course root that lists every file in scenarios/messy-folder with a one-line description of each."* — I'll do it.
 3. **Review:** open `folder-tour.md` yourself. Spot-check two descriptions against the real files. (Instructor: if a description is off, treat it as a teaching moment about review, not a failure.)
+
+## Visual walkthrough: ask, act and review
+
+### Step 9: Ask what is in the folder
+
+In the same Cowork conversation, send: "What's in scenarios/messy-folder?" Read the answer and compare it with the actual folder. This is chat-style behavior: you received information, but no folder-tour.md output file was created. In this demonstration, Claude first reported 17 files; the groups totaled 16. We asked it to recount, and the screenshot shows its corrected answer. Checking the answer is part of the lesson.
+
+![Claude corrects the count to 16 files and says nothing in the folder changed; step 9 highlights both facts.](../assets/lesson-1-1-chat-answer.png)
+
+### Step 10: Hand off the file-creation task
+
+Send: "Create a file called folder-tour.md in the course root that lists every file in scenarios/messy-folder with a one-line description of each." Wait for Claude to finish. Unlike the previous answer, this task creates a file on disk. The highlighted filename is the output to review.
+
+![Claude confirms saving folder-tour.md with 16 entries after the exact file-creation request, highlighted as step 10.](../assets/lesson-1-1-chat-vs-agent.png)
+
+### Step 11: Find and open the saved file
+
+Open File Explorer. Click the address bar (or press Ctrl+L), enter the path to your unzipped course folder, and press Enter. Our separate demo copy is C:\dev\cowork-course-demo; use your own course location. Select folder-tour.md, then double-click it. It opens in the application associated with Markdown files on your computer. These two native excerpts come from the same Explorer window.
+
+![Explorer course-folder address and file list, with step 11 outlining the newly saved folder-tour.md; personal navigation is cropped.](../assets/lesson-1-1-new-file-proof.png)
+
+### Step 12: Review the output against its sources
+
+Our Markdown file opened in Visual Studio Code. We clicked Open as Preview in the upper-right editor toolbar to read the table; your editor may look different. Open two source files from scenarios/messy-folder and compare their contents with the descriptions. Here, client-contacts.csv really has a semicolon-separated Jordan Pike row and missing fields. expenses-april.csv really has six expenses and three date formats. Report your findings to Claude, including any mistakes. You remain responsible for checking the result.
+
+![The actual folder-tour.md open in Markdown Preview, showing 16 files and step 12 outlining the two descriptions checked against source CSVs.](../assets/lesson-1-1-review-output.png)
+
+### Step 13: Complete the quiz and check progress
+
+Answer the three Check yourself questions in your own words. Ask Claude to record your result in my-progress.md. This demonstration finished Lesson 1.1 with all three answers correct and two output descriptions checked. Stop here to review your work before continuing to another lesson.
+
+![Claude confirms Lesson 1.1 complete with 3 out of 3 quiz answers and progress saved, highlighted as step 13.](../assets/lesson-1-1-quiz-complete.png)
 
 ## Check yourself
 1. In your own words: what's the difference between what happened in step 1 and step 2?
