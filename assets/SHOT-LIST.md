@@ -69,10 +69,16 @@ All Lesson 1.1 setup and exercise images below are captured as native PNGs witho
 
 ### Lesson 1.4 — Documents and Decks
 
-- [ ] `lesson-1-4-inputs-to-doc.png` — brief referencing the CSV + `notes-from-dana.md` + example report, with generated `may-report.docx` open beside the chat.
-  - Alt: "Three inputs — data, context notes, an example — producing a finished Word report"
-- [ ] `lesson-1-4-deck-slides.png` — `may-report-deck.pptx` slide-sorter view: headline / numbers / drivers / risks / next.
-  - Alt: "The five-slide deck Cowork reshaped from the report"
+- [x] `lesson-1-4-01-introduction.png` — Three inputs and saved progress in a new Cowork conversation.
+- [x] `lesson-1-4-02-without-example.png` — First draft before the April example is opened.
+- [x] `lesson-1-4-03-word-report.png` — Real one-page Word report matching the example.
+- [x] `lesson-1-4-04-context-review.png` — Dana context, arithmetic and table-column review.
+- [x] `lesson-1-4-05-deck-headline.png` — Real five-slide editable PowerPoint, first slide.
+- [x] `lesson-1-4-06-risk-slide.png` — Tomás capacity risk, pipeline cleanup and renewal timing.
+- [x] `lesson-1-4-07-quiz-question.png` — First of three individual quiz questions.
+- [x] `lesson-1-4-08-complete.png` — Quiz 3/3 and saved progress naming both Office files.
+
+The original two-image plan was replaced by the observed eight-stage exercise. The file viewer showed slides vertically, so no slide-sorter control is claimed. Exact alt text and repeatability notes are in the lesson and [capture notes](lesson-1-4-capture-notes.md).
 
 ### Lesson 1.5 — Agents and Parallel Work
 
