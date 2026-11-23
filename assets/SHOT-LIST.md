@@ -101,12 +101,26 @@ The original two-image plan was replaced by the observed eight-stage exercise. T
 
 Verified run: three actual research agents, separate saved findings, source review and correction, cited synthesis and quiz 3/3. See [capture notes](lesson-1-5-capture-notes.md).
 
-### Lesson 2.1 — Connectors
+### Lesson 2.1 — Connectors (simulated fallback demonstration)
 
-- [ ] `lesson-2-1-connector-settings.png` — Claude Desktop connectors panel showing scoped permissions (read vs. write visible).
-  - Alt: "Connector settings: scoped, per-tool permissions"
-- [ ] `lesson-2-1-meeting-prep.png` — `meeting-prep.md` generated from a connected calendar, calendar source visible in the reasoning. *(Fallback: use the `scenarios/connector-fallback/` simulated path.)*
-  - Alt: "A meeting-prep file built from calendar data"
+- [x] `lesson-2-1-01-permission-model.png` — 1. Learn the permission model before connecting
+  - Alt: Actual Claude teaching about per-connection scopes, read versus write access, source selection and local outputs, highlighted before the simulated exercise.
+- [x] `lesson-2-1-02-connector-directory.png` — 2. Inspect the directory without granting access
+  - Alt: Actual connector directory shows the Google Calendar listing in red and its unused Add control in yellow; no account grant or permission scope is demonstrated.
+- [x] `lesson-2-1-03-simulated-calendar.png` — 3. Review the explicitly simulated source
+  - Alt: Actual source-code view of the simulated calendar, with the simulation heading in red and all five original meeting entries in yellow.
+- [x] `lesson-2-1-04-local-simulated-prep.png` — 4. Generate a local document from named sources
+  - Alt: Actual local meeting-prep document states SIMULATED calendar exercise, identifies the fallback source and distinguishes facts from suggestions.
+- [x] `lesson-2-1-05-cascadia-source-review.png` — 5. Check Cascadia against the original notes
+  - Alt: Actual Cascadia prep retains participants and July 15 agenda in yellow; PHI restrictions, historical extract-review action and unknown readiness are highlighted red.
+- [x] `lesson-2-1-06-review-attendance-and-evidence.png` — 6. Review every entry without assuming facts or attendance
+  - Alt: Actual final meeting-prep entry highlights that Dana–Priya's meeting is not necessarily Alex's in red, and payment uncertainty in yellow.
+- [x] `lesson-2-1-07-local-connection-policy.png` — 7. Write your three connection-policy answers
+  - Alt: Actual saved simulated learner policy shows read-only tool order and exclusions in yellow, with local outputs and future per-action approval in red.
+- [x] `lesson-2-1-08-quiz-simulated-complete.png` — 8. Complete the quiz and record the simulated exercise
+  - Alt: Actual Claude completion summary confirms quiz 3/3 and Lesson 2.1 complete in red, with simulated fallback and the two saved local outputs highlighted yellow.
+
+Detailed grant scopes/read-write switches are not shown in the directory and were not demonstrated. No live connection or writeback was performed. See [capture notes](lesson-2-1-capture-notes.md).
 
 ### Lesson 2.2 — Plugins and Skills
 
