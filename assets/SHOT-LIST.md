@@ -82,10 +82,24 @@ The original two-image plan was replaced by the observed eight-stage exercise. T
 
 ### Lesson 1.5 — Agents and Parallel Work
 
-- [ ] `lesson-1-5-parallel-tracks.png` — Cowork with the three research tracks (Ferrostar / competitors / market) running simultaneously. **The 'wow' shot — take extra care.**
-  - Alt: "Three research agents running in parallel on separate tracks"
-- [ ] `lesson-1-5-synthesis-memo.png` — `recommendation-memo.md` open, citations pointing back to the three track files.
-  - Alt: "The synthesized recommendation memo citing all three track files"
+- [x] `lesson-1-5-01-decompose.png` — 1. Separate independent research from synthesis
+  - Alt: Real Claude explanation of decomposition, parallel research and separate synthesis, with the uncertainty-label rule highlighted.
+- [x] `lesson-1-5-02-three-agents.png` — 2. Verify actual execution and separate outputs
+  - Alt: Real Claude activity summary reading Ran 3 agents, used 2 tools, ran a command, above a table of three completed independent research files.
+- [x] `lesson-1-5-03-ferrostar-label.png` — 3. Review the engagement evidence and its limits
+  - Alt: Actual Ferrostar research file in Claude's native viewer, with the client-stated outcome and missing independent measurement method in red and the approximate reusable percentage caveat in yellow.
+- [x] `lesson-1-5-04-competitor-review.png` — 4. Review the competitors' evidence limits
+  - Alt: Actual saved competitor findings in Claude's native viewer: no provenance for Competitor A and fictional PlantPulse heading in yellow, with the two-user-review basis for PlantPulse's no-triage claim in red.
+- [x] `lesson-1-5-05-market-caveats.png` — 5. Correct interpretations before synthesis
+  - Alt: Revised market findings in the actual native viewer: the fictional US plant estimate is highlighted red and the weak anecdotal buying-pattern basis yellow.
+- [x] `lesson-1-5-06-synthesis-memo.png` — 6. Synthesize only after reviewing all three tracks
+  - Alt: Actual saved recommendation memo showing its three-track input list, an inference-labelled recommendation, and evidence with track-file citations.
+- [x] `lesson-1-5-07-labels-survive.png` — 7. Trace claims from memo to track to source
+  - Alt: Actual memo's risk paragraph retains client-stated, not independently measured in red, while its market evidence retains fictional estimate for course purposes in yellow, with track citations visible.
+- [x] `lesson-1-5-08-quiz-complete.png` — 8. Complete the quiz and save the Part 1 milestone
+  - Alt: Actual Claude completion summary confirms Lesson 1.5 quiz 3/3 and Part 1 complete in red, with the saved milestone and unchanged earlier and Part 2 rows highlighted yellow.
+
+Verified run: three actual research agents, separate saved findings, source review and correction, cited synthesis and quiz 3/3. See [capture notes](lesson-1-5-capture-notes.md).
 
 ### Lesson 2.1 — Connectors
 

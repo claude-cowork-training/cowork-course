@@ -4,6 +4,11 @@
 - Screenshots for every lesson and the demo GIF of the "start lesson 1.1" moment (full capture list in [assets/SHOT-LIST.md](assets/SHOT-LIST.md))
 - Social-preview image for the repo
 
+## [1.0.6] — 2026-11-23
+- Added eight real native-PNG Lesson 1.5 screenshots: decomposition, three-agent execution, individual track reviews, source-grounded corrections, cited synthesis, uncertainty-label review and quiz completion.
+- Kept red primary/yellow supporting highlights and numbered whitespace callouts; explicit privacy crops preserve native pixels without resampling.
+- Completed three independent research tracks, a reviewed recommendation memo and quiz 3/3. Preserved client-stated outcomes, fictional estimates and weak-source caveats through memo → track → source; Part 1 is complete and Part 2 remains unstarted.
+
 ## [1.0.5] — 2026-11-22
 - Added eight native-PNG Lesson 1.4 screenshots covering the draft without an example, example-matched Word report, source review, five-slide deck, risk-slide inspection and quiz completion.
 - Used red primary and yellow supporting highlights with numbered callouts in whitespace. All captures retain native pixels, with explicit crops and no screenshot upscaling.
