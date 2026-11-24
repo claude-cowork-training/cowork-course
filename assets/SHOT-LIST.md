@@ -143,12 +143,24 @@ Detailed grant scopes/read-write switches are not shown in the directory and wer
 
 Course working format/conversation trigger only; no native installation or external grants. See [capture notes](lesson-2-2-capture-notes.md).
 
-### Lesson 2.3 — Team Context Folder
+### Lesson 2.3 — Team Context Folder (scoped experiment and fictional demo kit)
 
-- [ ] `lesson-2-3-cold-vs-context.png` — `digest-cold.md` (generic) next to `digest-with-context.md` (green/yellow/red statuses, team vocabulary).
-  - Alt: "The same digest written cold versus with team context"
-- [ ] `lesson-2-3-context-folder.png` — `team-sim/` open showing the five context file types: about / style / glossary / playbooks / examples.
-  - Alt: "Anatomy of a team context folder: five file types"
+- [x] `lesson-2-3-01-cold-source-scope.png` — 1. Scope the cold run before reading context
+  - Alt: Actual cold-run prompt restricts the first digest to the two weekly-input files and explicitly excludes earlier outputs and context policies.
+- [x] `lesson-2-3-02-real-cold-digest.png` — 2. Preserve the actual cold digest
+  - Alt: Actual cold digest shows generic client-status table formatting in red and its two-source/no-invented-date note in yellow.
+- [x] `lesson-2-3-03-real-context-digest.png` — 3. Inspect the real context-assisted result
+  - Alt: Actual context digest shows three assessed-green client blocks in red, with the conditional Ozark pipeline watch and Needs a decision ending in yellow.
+- [x] `lesson-2-3-04-reviewed-comparison.png` — 4. Trace real differences to their context sources
+  - Alt: Actual reviewed comparison cites the status playbook and example format, and explicitly corrects the initial Ozark comparison claim.
+- [x] `lesson-2-3-05-genuine-about-draft.png` — 5. Draft the actual kit for a fictional demo team
+  - Alt: Actual initial DemoOps about draft includes the learner-supplied mission sentence in red and an explicit fictional-demo disclaimer in yellow.
+- [x] `lesson-2-3-06-about-after-line-review.png` — 6. Make every instruction earn its place
+  - Alt: Actual after-review about file shows the concrete team purpose without the removed mission sentence and preserves the source/data-handling rules.
+- [x] `lesson-2-3-07-demo-style-rules.png` — 7. Review the usable style and glossary drafts
+  - Alt: Actual fictional DemoOps style guide shows concrete digest/status rules in red and owner/date safeguards in yellow.
+
+Existing-conversation source scoping, not reset memory. Fictional DemoOps details only; actual learners substitute their real details privately. See [capture notes](lesson-2-3-capture-notes.md).
 
 ### Lesson 2.4 — Shared Workflows
 

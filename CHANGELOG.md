@@ -4,6 +4,11 @@
 - Screenshots for every lesson and the demo GIF of the "start lesson 1.1" moment (full capture list in [assets/SHOT-LIST.md](assets/SHOT-LIST.md))
 - Social-preview image for the repo
 
+## [1.0.9] — 2026-11-23
+- Added seven real native-PNG Lesson2.3 steps: scoped cold prompt/digest, actual context digest, reviewed source comparison, genuine demo about draft, earn-its-place edit, core style rules. Quiz completion is verified from saved progress; the final image is omitted after desktop disconnection.
+- Preserved both digest runs and compared observed differences against the actual playbook, clients and data-handling context. Ozark's Friday condition already appears cold; status colors are assessments without defined thresholds; line caps count logical source lines, and account owners do not imply task assignments.
+- Started a clearly fictional DemoOps folder from the actual kit, drafted about/style/glossary and removed one learner-supplied mission sentence with before/after and output tests. Quiz3/3, only2.3 progress recorded; stopped before2.4. No private real-team details or new browser preview.
+
 ## [1.0.8] — 2026-11-23
 - Added eight native-PNG Lesson 2.2 screenshots: actual template, learner-decided v1 skill, trigger, genuine report timing gap, v2 instructions/revision log, successful comparable rerun and quiz completion.
 - Demonstrated the course Markdown working format and conversation trigger; no native skill/plugin installation, account change or external grant. Preserved v1 and all earlier outputs; v2 keeps source timing and labels unknown priorities/suggestions.
