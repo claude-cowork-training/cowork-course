@@ -2,7 +2,7 @@
 
 Learn Claude Cowork by *doing*, inside Claude itself. No videos, no signup. Download this folder, point Claude Cowork at it, and say **"start lesson 1.1"** — Claude reads the instructor files and teaches you the whole course interactively: one lesson at a time, with hands-on exercises on realistic practice files, quizzes before you advance, and a progress tracker it maintains for you.
 
-> Lessons [1.1](lessons/1-1-what-is-cowork.md), [1.2](lessons/1-2-first-task.md), [1.3](lessons/1-3-working-with-files.md), [1.4](lessons/1-4-documents-and-decks.md), [1.5](lessons/1-5-agents-and-parallel-work.md) and [2.1](lessons/2-1-connectors.md) include numbered native-PNG walkthroughs. Lesson 2.1 demonstrates the explicitly simulated calendar fallback and local outputs without connecting a live account. Walkthroughs for 2.2–2.5 and the demo GIF remain planned.
+> Lessons [1.1](lessons/1-1-what-is-cowork.md), [1.2](lessons/1-2-first-task.md), [1.3](lessons/1-3-working-with-files.md), [1.4](lessons/1-4-documents-and-decks.md), [1.5](lessons/1-5-agents-and-parallel-work.md), [2.1](lessons/2-1-connectors.md) and [2.2](lessons/2-2-plugins-and-skills.md) include numbered native-PNG walkthroughs. Lesson 2.1 demonstrates the explicitly simulated calendar fallback and local outputs without connecting a live account. Lesson 2.2 demonstrates a course-format skill revision, not a native installation. Walkthroughs for 2.3–2.5 and the demo GIF remain planned.
 
 ## Quickstart (3 steps)
 

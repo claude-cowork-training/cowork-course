@@ -24,6 +24,69 @@ The part nobody tells you: **skills are drafts forever**. The first run always r
 4. **Fix the skill, not the output:** revise the instruction that caused it. Log the change at the bottom of the skill file: "v2 — added X because first run did Y."
 5. **Run it again** and confirm the fix held.
 
+<!-- lesson-2-2-visual-walkthrough:start -->
+## Visual walkthrough: build, run, review, revise, rerun
+
+Follow a real Claude Desktop exercise with synthetic course data. Alex turns the Lesson 1.4 monthly-report brief into a Markdown skill, decides all template fields, runs v1, identifies an actual timing gap, revises the instructions and runs v2 on the same sources. This is the course working format and a trigger in this conversation, not proof of installing a native Claude skill or a plugin. No installation, live account change or external grant is demonstrated. Outputs are Markdown; the word limit is a length budget, not verified pagination. Native PNGs are privacy-cropped without resampling and annotated with red primary/yellow supporting highlights. Open an image at full size for small text.
+
+### 1. Start from the course template
+
+Inspect the actual skill template, then choose all eight fields as the learner: name, trigger, goal, inputs, steps, quality, output and wrong-input handling. Plugins add prebuilt capabilities; a saved skill records the judgment in a recurring brief. This exercise creates a course Markdown file and a trigger in this conversation; it does not install a native Claude skill or plugin.
+
+![Actual Claude source viewer shows the eight skill-template fields and its initial revision log.](../assets/lesson-2-2-01-skill-template.png)
+
+### 2. Save the learner’s v1 decisions
+
+Alex chooses the recurring monthly leadership report from Lesson 1.4 and decides every template field with Claude. Save the current skill and an immutable v1 snapshot under skills/. Use only the original metrics, Dana notes and April example; save new Markdown reports under skills/runs/ so the earlier Word report and deck remain intact. The 450-word rule is a length budget, not verified page layout.
+
+![Actual saved v1 skill shows the conversation trigger and explicit course-format limitation in red, with the three allowed sources in yellow.](../assets/lesson-2-2-02-saved-v1-skill.png)
+
+### 3. Trigger v1 on genuine synthetic inputs
+
+In this conversation, the trigger means read and follow the saved instructions. Run May 2026 against the original CSV, notes and example, with version v1 and a new run label. Claude saves skills/runs/report-2026-05-v1-original.md and reopens the real local file. Preserve both the v1 instructions and its first output before reviewing the result.
+
+```text
+Run my monthly leadership report for May 2026, using scenarios/report-inputs/monthly-metrics.csv, version v1, label original.
+```
+
+![Actual unsent v1 trigger in Claude names May 2026, the real CSV, version and output label, and instructs preservation of earlier files.](../assets/lesson-2-2-03-v1-trigger.png)
+
+### 4. Find the actual timing gap in v1
+
+The real first output says Ferrostar’s renewal conversation starts this month under Risks, then lists it unqualified under Next month. Dana’s May notes establish current-month timing; they do not establish a June plan. This is the observed gap, rather than an invented failure. The v1 report stays unchanged as evidence.
+
+![Actual saved v1 report highlights its unsupported Next month renewal item in red and the source-consistent this-month renewal context in yellow.](../assets/lesson-2-2-04-real-v1-gap.png)
+
+### 5. Fix the instructions before rerunning
+
+Add a temporal-source check: keep time-relative facts in the period supported by the source. When next-month priorities are absent, state that they are not specified. Any proposed follow-up must be labelled Suggested action (not a source fact). Revise the skill, rather than patching the old report.
+
+![Actual v2 skill’s temporal-source check preserves source timing, explicitly marks unknown priorities and labels proposed actions.](../assets/lesson-2-2-05-v2-temporal-rule.png)
+
+### 6. Keep version history and explain the change
+
+Retain separate v1 and v2 skill snapshots. The dated v2 log explains that v1 carried a May renewal into Next month. Two supporting improvements use the requested YYYY-MM in output names and label the word limit as a budget, not proof of pagination. These changes remain instructions for the next run, not edits to v1’s report.
+
+![Actual saved v2 skill shows the dated cause-and-change revision log in red and non-overwriting output/validation rules in yellow.](../assets/lesson-2-2-06-v2-revision-log.png)
+
+### 7. Rerun on the same inputs and verify the fix
+
+Trigger v2 for May 2026 on exactly the same three source files, saving skills/runs/report-2026-05-v2-temporal-fix.md. The actual result keeps Ferrostar in May, says next-month priorities are unspecified and labels confirming June priorities with Dana as a suggestion, not an agreed fact. Both metric tables match; revenue +5.7%, utilization +3 points, new leads −4 and pipeline about −10% trace to the CSV. A focused fix does not make the skill finished forever.
+
+```text
+Run my monthly leadership report for May 2026, using scenarios/report-inputs/monthly-metrics.csv, version v2, label temporal-fix.
+```
+
+![Actual v2 report marks unspecified next-month priorities and a clearly labelled suggested action in red; the this-month source facts remain in yellow.](../assets/lesson-2-2-07-v2-successful-rerun.png)
+
+### 8. Finish the quiz and record only this lesson
+
+Answer the three questions individually: recurrence and stable shape, fixing the instructions rather than one output, and why even a successful skill remains a draft. Alex earns 3/3. Only Lesson 2.2 progress changes, naming the current skill, version snapshots, separate reports and the temporal-source correction. Earlier progress and the Part 1 milestone stay unchanged; 2.3–2.5 remain blank. This is a course-format Markdown skill and conversation trigger, with no native skill/plugin installation.
+
+![Actual Claude completion summary confirms quiz 3/3 and Lesson 2.2 saved, with the preserved skill versions, separate report runs and course-format limitation.](../assets/lesson-2-2-08-quiz-course-skill-complete.png)
+
+<!-- lesson-2-2-visual-walkthrough:end -->
+
 ## Check yourself
 1. What two properties make a task worth turning into a skill?
 2. Why fix the skill's instructions instead of just correcting the output?

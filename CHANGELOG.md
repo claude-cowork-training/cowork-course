@@ -4,6 +4,11 @@
 - Screenshots for every lesson and the demo GIF of the "start lesson 1.1" moment (full capture list in [assets/SHOT-LIST.md](assets/SHOT-LIST.md))
 - Social-preview image for the repo
 
+## [1.0.8] — 2026-11-23
+- Added eight native-PNG Lesson 2.2 screenshots: actual template, learner-decided v1 skill, trigger, genuine report timing gap, v2 instructions/revision log, successful comparable rerun and quiz completion.
+- Demonstrated the course Markdown working format and conversation trigger; no native skill/plugin installation, account change or external grant. Preserved v1 and all earlier outputs; v2 keeps source timing and labels unknown priorities/suggestions.
+- Both report runs use the same three synthetic sources. Verified metric parity, the focused fix and quiz3/3; stopped before2.3. Preserved the newer public README author signature.
+
 ## [1.0.7] — 2026-11-23
 - Added eight native-PNG Lesson 2.1 screenshots: permission model, connector-directory orientation, explicitly simulated calendar, local prep/source review, written connection policy and quiz completion.
 - Demonstrated the supported five-meeting fallback with no live account connection, personal data read, connector grant or external writeback. Detailed authorization scopes were not visible in the directory and are explicitly not demonstrated.

@@ -122,12 +122,26 @@ Verified run: three actual research agents, separate saved findings, source revi
 
 Detailed grant scopes/read-write switches are not shown in the directory and were not demonstrated. No live connection or writeback was performed. See [capture notes](lesson-2-1-capture-notes.md).
 
-### Lesson 2.2 — Plugins and Skills
+### Lesson 2.2 — Plugins and Skills (course-format revision exercise)
 
-- [ ] `lesson-2-2-skill-file.png` — filled-in `skill-template.md` inside the new `skills/` folder.
-  - Alt: "A completed skill file in the skills folder"
-- [ ] `lesson-2-2-skill-triggered.png` — trigger phrase invoking the skill in chat, plus the v1→v2 changelog line at the bottom of the skill file.
-  - Alt: "The skill running from its trigger phrase, with its revision changelog"
+- [x] `lesson-2-2-01-skill-template.png` — 1. Start from the course template
+  - Alt: Actual Claude source viewer shows the eight skill-template fields and its initial revision log.
+- [x] `lesson-2-2-02-saved-v1-skill.png` — 2. Save the learner’s v1 decisions
+  - Alt: Actual saved v1 skill shows the conversation trigger and explicit course-format limitation in red, with the three allowed sources in yellow.
+- [x] `lesson-2-2-03-v1-trigger.png` — 3. Trigger v1 on genuine synthetic inputs
+  - Alt: Actual unsent v1 trigger in Claude names May 2026, the real CSV, version and output label, and instructs preservation of earlier files.
+- [x] `lesson-2-2-04-real-v1-gap.png` — 4. Find the actual timing gap in v1
+  - Alt: Actual saved v1 report highlights its unsupported Next month renewal item in red and the source-consistent this-month renewal context in yellow.
+- [x] `lesson-2-2-05-v2-temporal-rule.png` — 5. Fix the instructions before rerunning
+  - Alt: Actual v2 skill’s temporal-source check preserves source timing, explicitly marks unknown priorities and labels proposed actions.
+- [x] `lesson-2-2-06-v2-revision-log.png` — 6. Keep version history and explain the change
+  - Alt: Actual saved v2 skill shows the dated cause-and-change revision log in red and non-overwriting output/validation rules in yellow.
+- [x] `lesson-2-2-07-v2-successful-rerun.png` — 7. Rerun on the same inputs and verify the fix
+  - Alt: Actual v2 report marks unspecified next-month priorities and a clearly labelled suggested action in red; the this-month source facts remain in yellow.
+- [x] `lesson-2-2-08-quiz-course-skill-complete.png` — 8. Finish the quiz and record only this lesson
+  - Alt: Actual Claude completion summary confirms quiz 3/3 and Lesson 2.2 saved, with the preserved skill versions, separate report runs and course-format limitation.
+
+Course working format/conversation trigger only; no native installation or external grants. See [capture notes](lesson-2-2-capture-notes.md).
 
 ### Lesson 2.3 — Team Context Folder
 
